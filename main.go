@@ -60,7 +60,6 @@ func main() {
 			fmt.Println("Could not read your input, please try again: " + err.Error())
 			continue
 		}
-		fmt.Println(userInput)
 		inputAsInt, err := strconv.Atoi(strings.TrimSpace(userInput))
 		if err != nil {
 			fmt.Println("Input must be a number (Integer), please try again...")
